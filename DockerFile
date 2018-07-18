@@ -1,0 +1,24 @@
+FROM microsoft/aspnetcore:2.0 AS base
+WORKDIR /app
+EXPOSE 51801
+
+# this is going to build only
+FROM microsoft/aspnetcore-build:2.0 AS build
+WORKDIR /DOCKEREXAMPLE/
+# COPY *.sln ./
+COPY DOCKEREXAMPLE.csproj /
+RUN dotnet restore
+COPY . .
+WORKDIR /DOCKEREXAMPLE/
+RUN  dotnet build -c Release -o /app
+
+
+# this is for publish
+
+FROM build AS publish
+RUN  dotnet build -c Release -o /app
+
+FROM  base AS final
+WORKDIR /app
+COPY --from=publish /app .
+ENTRYPOINT [ "dotnet","DOCKEREXAMPLE.dll" ]

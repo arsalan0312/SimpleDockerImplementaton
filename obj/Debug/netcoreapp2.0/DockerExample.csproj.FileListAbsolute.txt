@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\DockerExample\DockerExample\bin\Debug\netcoreapp2.0\DockerExample.deps.json
+C:\Users\user\source\repos\DockerExample\DockerExample\bin\Debug\netcoreapp2.0\DockerExample.runtimeconfig.json
+C:\Users\user\source\repos\DockerExample\DockerExample\bin\Debug\netcoreapp2.0\DockerExample.runtimeconfig.dev.json
+C:\Users\user\source\repos\DockerExample\DockerExample\bin\Debug\netcoreapp2.0\DockerExample.dll
+C:\Users\user\source\repos\DockerExample\DockerExample\bin\Debug\netcoreapp2.0\DockerExample.pdb
+C:\Users\user\source\repos\DockerExample\DockerExample\obj\Debug\netcoreapp2.0\DockerExample.csprojAssemblyReference.cache
+C:\Users\user\source\repos\DockerExample\DockerExample\obj\Debug\netcoreapp2.0\DockerExample.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DockerExample\DockerExample\obj\Debug\netcoreapp2.0\DockerExample.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\DockerExample\DockerExample\obj\Debug\netcoreapp2.0\DockerExample.AssemblyInfo.cs
+C:\Users\user\source\repos\DockerExample\DockerExample\obj\Debug\netcoreapp2.0\DockerExample.dll
+C:\Users\user\source\repos\DockerExample\DockerExample\obj\Debug\netcoreapp2.0\DockerExample.pdb
